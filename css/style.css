@@ -248,6 +248,12 @@ td { vertical-align: top; }
 	height: auto;
 }
 
+.item img:hover {
+  width: 300px;
+  height: auto;
+  opacity: 0.6;
+}
+
 .featured img {
   width: 620px;
   height: auto;
@@ -319,11 +325,11 @@ This is where my (Chris) custom CSS starts to come into play
 
 body {
   display: block;
-  width:1245px;
-  height: 2000px;
+  width: auto;
+  height: auto;
   padding: 0px;
   border: 0px;
-  margin: 0px auto;
+  margin-bottom: 150px auto;
 }
 #header {
   width:100%;
